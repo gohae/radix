@@ -364,20 +364,16 @@ func Dial(ctx context.Context, network, addr string, opts ...DialOpt) (Conn, err
 	for _, opt := range opts {
 		opt(&do)
 	}
-
-	var dialer interface {
-		DialContext(context.Context, string, string) (net.Conn, error)
-	}
-
+	
+	var netConn net.Conn
+	var err error
+	dialer := net.Dialer{}
 	if do.useTLSConfig {
-		dialer = &tls.Dialer{
-			Config: do.tlsConfig,
-		}
+		netConn, err = tls.DialWithDialer(&dialer, network, addr, do.tlsConfig)
 	} else {
-		dialer = &net.Dialer{}
+		netConn, err = dialer.Dial(network, addr)
 	}
-
-	netConn, err := dialer.DialContext(ctx, network, addr)
+	
 	if err != nil {
 		return nil, err
 	}
