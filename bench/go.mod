@@ -9,7 +9,7 @@ require (
 	github.com/joomcode/redispipe v0.9.0
 	github.com/mediocregopher/radix.v2 v0.0.0-20181115013041-b67df6e626f9 // indirect
 	github.com/mediocregopher/radix/v3 v3.5.2
-	github.com/mediocregopher/radix/v4 v4.0.0
+	github.com/gohae/radix/v4 v4.0.0
 )
 
-replace github.com/mediocregopher/radix/v4 => ../.
+replace github.com/gohae/radix/v4 => ../.

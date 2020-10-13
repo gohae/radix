@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mediocregopher/radix/v4/internal/proc"
-	"github.com/mediocregopher/radix/v4/resp"
-	"github.com/mediocregopher/radix/v4/trace"
+	"github.com/gohae/radix/v4/internal/proc"
+	"github.com/gohae/radix/v4/resp"
+	"github.com/gohae/radix/v4/trace"
 )
 
 // ErrPoolEmpty is used by Pools created using the PoolOnEmptyErrAfter option

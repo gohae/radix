@@ -13,10 +13,10 @@ import (
 
 	"errors"
 
-	"github.com/mediocregopher/radix/v4/internal/proc"
-	"github.com/mediocregopher/radix/v4/resp"
-	"github.com/mediocregopher/radix/v4/resp/resp3"
-	"github.com/mediocregopher/radix/v4/trace"
+	"github.com/gohae/radix/v4/internal/proc"
+	"github.com/gohae/radix/v4/resp"
+	"github.com/gohae/radix/v4/resp/resp3"
+	"github.com/gohae/radix/v4/trace"
 )
 
 // dedupe is used to deduplicate a function invocation, so if multiple

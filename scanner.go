@@ -8,7 +8,7 @@ import (
 
 	"errors"
 
-	"github.com/mediocregopher/radix/v4/resp/resp3"
+	"github.com/gohae/radix/v4/resp/resp3"
 )
 
 // Scanner is used to iterate through the results of a SCAN call (or HSCAN,

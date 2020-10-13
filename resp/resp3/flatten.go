@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/mediocregopher/radix/v4/internal/bytesutil"
-	"github.com/mediocregopher/radix/v4/resp"
+	"github.com/gohae/radix/v4/internal/bytesutil"
+	"github.com/gohae/radix/v4/resp"
 )
 
 var boolStrs = [][]byte{

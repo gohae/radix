@@ -13,7 +13,7 @@ import (
 	redispipe "github.com/joomcode/redispipe/redis"
 	redispipeconn "github.com/joomcode/redispipe/redisconn"
 	radixv3 "github.com/mediocregopher/radix/v3"
-	"github.com/mediocregopher/radix/v4"
+	"github.com/gohae/radix/v4"
 )
 
 func newRedigo() redigo.Conn {

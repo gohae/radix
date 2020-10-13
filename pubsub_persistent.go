@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/mediocregopher/radix/v4/internal/proc"
+	"github.com/gohae/radix/v4/internal/proc"
 )
 
 type persistentPubSubOpts struct {

@@ -7,9 +7,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/mediocregopher/radix/v4/internal/proc"
-	"github.com/mediocregopher/radix/v4/resp"
-	"github.com/mediocregopher/radix/v4/resp/resp3"
+	"github.com/gohae/radix/v4/internal/proc"
+	"github.com/gohae/radix/v4/resp"
+	"github.com/gohae/radix/v4/resp/resp3"
 )
 
 // PubSubMessage describes a message being published to a subscribed channel

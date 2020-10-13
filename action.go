@@ -13,8 +13,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mediocregopher/radix/v4/resp"
-	"github.com/mediocregopher/radix/v4/resp/resp3"
+	"github.com/gohae/radix/v4/resp"
+	"github.com/gohae/radix/v4/resp/resp3"
 )
 
 // Action performs a task using a Conn.

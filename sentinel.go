@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mediocregopher/radix/v4/internal/proc"
-	"github.com/mediocregopher/radix/v4/trace"
+	"github.com/gohae/radix/v4/internal/proc"
+	"github.com/gohae/radix/v4/trace"
 )
 
 type sentinelOpts struct {
